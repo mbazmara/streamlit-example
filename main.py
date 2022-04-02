@@ -2,7 +2,6 @@
 import streamlit as st
 import requests
 from streamlit_lottie import st_lottie
-from PIL import Image
 
 
 # ---- website config ----
@@ -22,8 +21,8 @@ def load_css(file):
 
 # ---- load things ----
 lottie_ai = load_lottie('https://assets1.lottiefiles.com/private_files/lf30_cmd8kh2q.json')
-my_image = Image.open('images/mmb1.jpeg')
-thumbnail = Image.open('images/maxresdefault.jpg')
+my_image = st.image('images/mmb1.jpeg')
+thumbnail = st.image('images/maxresdefault.jpg')
 load_css('style/style.css')
 
 left_col, right_col = st.columns((2,1))
