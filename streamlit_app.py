@@ -29,6 +29,7 @@ def visualize(data, n_clusters,x,y):
     plt.title('Clustered Database that you uploaded')
     plt.xlabel(x)
     plt.ylabel(y)
+    st.set_option('deprecation.showPyplotGlobalUse', False)
     st.pyplot()
 
 
