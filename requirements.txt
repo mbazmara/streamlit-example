@@ -3,3 +3,7 @@ pandas
 streamlit
 sklearn
 matplotlib
+requests
+streamlit_lottie
+PIL
+yfinance
